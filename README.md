@@ -44,19 +44,10 @@ Une requête SQL est ensuite exécutée pour mettre à jour les informations de 
 
 
 ### Installation
-1. Clonez ce dépôt GitHub :
-   ```bash
-   git clone https://github.com/votre-utilisateur/MyGest.git
-   cd MyGest
-   ```
-2. Importez la base de données :
-   ```bash
-   mysql -u root -p < mygest.sql
-   ```
-3. Exécutez le script Bash :
-   ```bash
-   chmod +x gestion_parc.sh
-   ./gestion_parc.sh
-   ```
+1. Clonez ce dépôt GitHub 
+
+2. Importez la base de données 
+
+3. Exécutez le script Bash 
 
 
