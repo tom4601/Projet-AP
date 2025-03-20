@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 USER="u1"                 
 DATABASE="MyGest"        
 
