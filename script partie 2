@@ -1,0 +1,37 @@
+Ping) #!/bin/bash
+
+read -p "Entrez une adresse IP : " ip
+
+if ping -c 1 $ip > /dev/null 2>&1; then
+    echo "L'adresse IP $ip est active."
+else
+    echo "L'adresse IP $ip n'est pas active."
+fi
+
+Port)   #!/bin/bash
+
+read -p "Entrez une adresse IP : " ip
+read -p "Entrez un numéro de port : " port
+
+if nc -zv $ip $port > /dev/null 2>&1; then
+    echo "Le port $port de l'adresse IP $ip est ouvert."
+else
+    echo "Le port $port de l'adresse IP $ip n'est pas ouvert."
+
+
+   Fichier texte) #!/bin/bash
+
+mysql -u utilisateur -p mot_de_passe -D MyGest -e "SELECT adIP FROM Equipement;" | awk 'NR>1 {print $1}'>adresses_ip.txt
+ 
+
+
+
+#!/bin/bash
+
+while read ip; do
+    if ping -c 1 $ip > /dev/null 2>&1; then
+        echo -e "\033[32m$ip est active\033[0m" # Vert
+    else
+        echo -e "\033[31m$ip est inactive\033[0m" # Rouge
+    fi
+done < adresses_ip.txt
