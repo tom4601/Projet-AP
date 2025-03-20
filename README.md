@@ -1,9 +1,13 @@
 # Gestion du Parc Informatique MyGest
 
 ## 1) Présentation Générale
-Ce projet est un script Bash qui permet de gérer l'inventaire d'un parc informatique à l'aide d'une base de données MySQL. L'application permet de consulter, ajouter, modifier et supprimer des équipements répertoriés dans la base de données MyGest.
+Le projet vise à développer un programme pour simplifier la gestion des systèmes et réseaux pour les techniciens. Il est decompose en 3 parties:
 
-L'objectif de ce projet est de proposer une interface simple en ligne de commande pour interagir avec la base de données et manipuler les informations du parc informatique.
+Partie 1 - Gestion du parc : Cette section permet de gérer un inventaire du parc informatique à l'aide d'une base de données MyGest. Elle inclut des fonctionnalités telles que la consultation, l'ajout, la suppression et la modification des équipements du réseau.
+
+Partie 2 - Outils réseau : Elle fournit plusieurs outils permettant de tester l’état du réseau. Par exemple, des outils pour tester la connectivité d'une adresse IP, vérifier l'ouverture d'un port TCP, ou encore générer un fichier .txt avec des informations extraites de la base de données.
+
+Partie 3 - Installateur : Cette partie garantit la bonne installation et configuration du programme, en vérifiant les prérequis, comme les paquets nécessaires, et en différenciant entre une machine serveur et cliente. Un script d'installation initialise la configuration et crée la base de données.
 
 ## 2) Détails des Fonctionnalités
 
@@ -75,3 +79,9 @@ https://www.youtube.com/watch?v=UemAYIW3zXg
 
 
 ## Sources
+
+-Documentation de pedagogeek.fr
+-https://stackoverflow.com
+-https://www.debian.org
+
+
