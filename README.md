@@ -11,6 +11,21 @@ Partie 3 - Installateur : Cette partie garantit la bonne installation et configu
 
 ## Détails des Fonctionnalités
 
+Le script pour la Partie 1 permet de gérer efficacement l’inventaire du parc informatique à l’aide d’une base de données MyGest. Il propose plusieurs fonctionnalités essentielles :
+
+Connexion à la base de données : Avant toute interaction, le script vérifie la connexion à la base MyGest avec l’utilisateur u1. Si la connexion échoue, un message d’erreur s’affiche et le programme s’arrête.
+
+Menu principal interactif :
+
+Consultation des équipements : Possibilité d'afficher tous les équipements ou de filtrer par type (machines, serveurs, switches).
+Ajout d’un nouvel équipement : L’utilisateur entre les informations nécessaires (nom, adresse MAC, adresse IP, CIDR, type).
+Suppression d’un équipement : Suppression d’un équipement en indiquant son ID.
+Modification d’un équipement : Mise à jour des informations d’un équipement existant en saisissant son ID et les nouvelles valeurs.
+Option de sortie pour quitter proprement le programme.
+Chaque action repose sur des commandes SQL exécutées directement depuis le script. L’ensemble permet une gestion simple et rapide du parc informatique sans nécessiter une interface graphique.
+
+Avec le script de la Partie 2 - Outils réseau, on peux également tester la connectivité des équipements, vérifier l’ouverture des ports et générer un fichier contenant toutes les IP enregistrées. Ces outils complètent la gestion du parc en ajoutant des fonctionnalités de diagnostic réseau.
+
 ## Mes réalisations
 
 ### Consultation des données
