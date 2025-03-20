@@ -1,6 +1,6 @@
 # Gestion du Parc Informatique MyGest
 
-## 1) Présentation Générale
+## Présentation Générale
 Le projet vise à développer un programme pour simplifier la gestion des systèmes et réseaux pour les techniciens. Il est decompose en 3 parties:
 
 Partie 1 - Gestion du parc : Cette section permet de gérer un inventaire du parc informatique à l'aide d'une base de données MyGest. Elle inclut des fonctionnalités telles que la consultation, l'ajout, la suppression et la modification des équipements du réseau.
@@ -9,9 +9,9 @@ Partie 2 - Outils réseau : Elle fournit plusieurs outils permettant de tester l
 
 Partie 3 - Installateur : Cette partie garantit la bonne installation et configuration du programme, en vérifiant les prérequis, comme les paquets nécessaires, et en différenciant entre une machine serveur et cliente. Un script d'installation initialise la configuration et crée la base de données.
 
-## 2) Détails des Fonctionnalités
+## Détails des Fonctionnalités
 
-## 3) Mes réalisations
+## Mes réalisations
 
 ### Consultation des données
 L'utilisateur peut consulter les informations stockées dans la base de données via un menu interactif. Il peut choisir d'afficher :
