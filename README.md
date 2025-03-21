@@ -26,6 +26,8 @@ Chaque action repose sur des commandes SQL exécutées directement depuis le scr
 
 Avec le script de la Partie 2 - Outils réseau, on peux également tester la connectivité des équipements, vérifier l’ouverture des ports et générer un fichier contenant toutes les IP enregistrées. Ces outils complètent la gestion du parc en ajoutant des fonctionnalités de diagnostic réseau.
 
+La Partie 3 vise à automatiser la configuration et l'installation des éléments nécessaires au bon fonctionnement du programme. Elle inclut la vérification et l'installation des paquets requis, la création et la configuration de la base de données, ainsi que la génération du fichier config.sh. Elle distingue également si le programme est utilisé sur un serveur ou une machine cliente pour adapter les paramètres en conséquence.
+
 ## Mes réalisations
 
 ### Consultation des données
